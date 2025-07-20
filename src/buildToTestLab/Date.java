@@ -1,6 +1,4 @@
 package buildToTestLab;
-import org.junit.*;
-import static org.junit.Assert.*;
 import java.util.Scanner;
 
 public class Date
@@ -259,9 +257,8 @@ public class Date
         System.out.println("tester is "+tester);
     }
     
-    // Stub
-    Date addOneDay(){
-    	   System.out.println("Date.addOneDay() is not yet implemented.");
-		   return null;
+    public Date addOneDay() {
+    	System.out.println("Date.addOneDay() is not yet implemented.");
+		return null;
     	}
 }
